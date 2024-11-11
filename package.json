@@ -1,0 +1,19 @@
+{
+  "name": "prueba-tecnica-lit",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "json-server --watch pokemon.json --port 3001"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3",
+    "lit": "^3.2.1"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
+  }
+}
